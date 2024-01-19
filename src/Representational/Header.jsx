@@ -11,7 +11,7 @@ const Header = () => {
               <ul className="p-2 w-40 normal-case md:static md:right-0
               absolute right-8 bg-[#EEEFF0]">
                 <li className="hover:text-[#F99F1C]">
-                  <a href="/">Home</a>
+                  <a href="/" style={{fontFamily: "'Baloo 2', 'CM Sans Serif 2012', sans-serif"}}>Home</a>
                 </li>
                 <li className="hover:text-[#F99F1C]">
                   <a href="/details">Details</a>
