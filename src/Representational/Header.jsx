@@ -47,7 +47,7 @@ const Header = () => {
               <ul className="menu text-sm menu-horizontal px-1">{navmenu}</ul>
             </div>
             <div className="navbar-end hidden lg:flex ">
-                <button className='btn bg-[#F99F1C] rounded-full text-2xl w-12 font-bold'>
+                <button className='btn bg-[#F99F1C] text-[#FFF3EC] rounded-full text-2xl w-12 font-bold'>
                   <BiUser />
                 </button>
             </div>
