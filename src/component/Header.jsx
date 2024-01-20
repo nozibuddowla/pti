@@ -37,7 +37,7 @@ const Header = () => {
         <div>
           <div className="navbar">
             <div className="md:navbar-start">
-              <a href='/' className="btn text-black btn-ghost text-2xl font-bold">pti.</a>
+              <a href='/' className="btn text-black btn-ghost text-2xl font-bold" style={{ fontFamily: "'Baloo 2', 'CM Sans Serif 2012', sans-serif",}}>pti.</a>
             </div>
             <div className="md:navbar-center relative navbar-start md:w-2/5 w-full bg-[#EEEFF0]">
               <div className="px-3 absolute left-0">
