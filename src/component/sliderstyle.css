@@ -1,0 +1,28 @@
+.slick-list {
+    margin-right: -15px; /* Adjust the margin as needed */
+  }
+  
+  .slick-slide {
+    margin-right: 15px; /* Adjust the margin as needed */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1024px) {
+    .slick-list {
+      margin-right: -10px; /* Adjust the margin as needed for lg breakpoint */
+    }
+  
+    .slick-slide {
+      margin-right: 10px; /* Adjust the margin as needed for lg breakpoint */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .slick-list {
+      margin-right: -5px; /* Adjust the margin as needed for md breakpoint */
+    }
+  
+    .slick-slide {
+      margin-right: 5px; /* Adjust the margin as needed for md breakpoint */
+    }
+  }
