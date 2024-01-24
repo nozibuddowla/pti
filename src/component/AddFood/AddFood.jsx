@@ -78,7 +78,7 @@ const AddFood = ({ setModalVisible, modalVisible }) => {
     }
 
   return (
-    <div id="my_modal_3" className={`modal ${modalVisible ? 'show' : ''}`}>
+    <div id="my_modal_3" className={`modal ${modalVisible ? 'modal-open' : ''}`}>
         <div className='modal-box bg-[#EEEFF0]'>
             <form method='dialog'>
                 <button onClick={() => setModalVisible(false)} className='btn btn-sm btn-circle btn-ghost absolute right-2 top-2'>X</button>
